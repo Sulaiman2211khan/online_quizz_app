@@ -1,0 +1,181 @@
+/* Author: Muhammad Sulaiman
+   Style.css */
+body {
+  background-color: lightgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to right, lightgreen, white, lightgreen);
+}
+
+/* main  */
+#main {
+  background: rgba(194, 15, 65, 0.589);
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  top: 50%;
+  left: 50%;
+  padding: 50px;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  height: 350px;
+  width: 50vh;
+  box-shadow: -3px 3px 3px 1px rgb(11, 168, 230, 0.89),
+    3px 3px 3px 1px rgb(11, 168, 230, 0.89),
+    -1px -1px 1px 0.5px rgb(11, 168, 230, 0.89);
+}
+
+/* Marks  */
+#marks {
+  margin-left: 87%;
+  background-color: rgb(125, 218, 125);
+  box-shadow: 0px 5px 2px 0px gray;
+  border: white;
+  text-align: center;
+  padding: 6px;
+  white-space: nowrap;
+  font-size: medium;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Instructions */
+#text {
+  margin-bottom: 10px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0px 4.5px 2px 0px rgb(110, 26, 114);
+  font-family: "Times New Roman", Times, serif;
+}
+
+#buttonchoices {
+  display: flex;
+  gap: 11px;
+  outline: none;
+  height: 100%;
+  position: relative;
+}
+
+/* 4 Options  */
+#buttonchoices button {
+  height: 90px;
+  text-decoration: none;
+  justify-content: space-between;
+  background-color: white;
+  margin-bottom: 10px;
+  width: 80px;
+  font-size: x-large;
+  border: 2px white;
+  border-radius: 4px;
+  box-shadow: 0px 5px 2px 0px gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#buttonchoices button:hover {
+  background-color: plum;
+  color: white;
+}
+
+/* Start / Reset button and time Remamining */
+#reset_time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6px;
+}
+
+#reset_time button {
+  background-color: rgb(125, 218, 125);
+  box-shadow: 0px 5px 2px 0px gray;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  font-size: 100%;
+  white-space: nowrap;
+  text-align: center;
+  border: 2px white;
+  height: 35px;
+  width: 80px;
+  border-radius: 4px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  order: -1;
+}
+
+#reset_time button:hover {
+  background-color: rgb(174, 115, 42);
+}
+
+/* Time Remaining */
+#time_remaining {
+  border: none;
+  background: none;
+  padding: 6px;
+  font-size: medium;
+  white-space: nowrap;
+  align-items: center;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(177, 158, 128);
+  cursor: default;
+  pointer-events: none;
+}
+
+/* Display question */
+#question {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: white;
+  padding: 10px;
+  height: 80px;
+  background-color: rgb(53, 165, 169);
+  font-size: 70px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  box-shadow: 0px 4.5px 2px 0px rgb(48, 72, 167);
+}
+
+/* Each attempt messsage */
+#msg {
+  padding: 6px;
+  margin-left: 80px;
+  position: fixed;
+  margin-bottom: 100px;
+  top: 15%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  white-space: nowrap;
+}
+
+/* Display Result */
+#popup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 20vh;
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(
+    to right,
+    rgb(144, 221, 238),
+    rgb(137, 232, 137),
+    rgb(144, 221, 238)
+  );
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: xx-large;
+  line-height: 10dvh;
+  color: red;
+  box-shadow: 3px 5px 2px 0.5px rgb(128, 128, 128);
+  position: fixed;
+}
+/*         END          */

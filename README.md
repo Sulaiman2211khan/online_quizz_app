@@ -1,6 +1,6 @@
 # ONLINE QUIZ APP
 
-# OBJECTIVE
+# 1. OBJECTIVE
 To create an interactive online quiz application for school-level students with specific functionalities as outlined in the activity description.
 Project Description: The 'Online Quiz' project, developed as part of a Complex Engineering activity in React, constitutes an interactive 
 online quiz application tailored for school-level students. This project 
